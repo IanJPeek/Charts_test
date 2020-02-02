@@ -5,6 +5,13 @@
 .DoughnutHead{
   color: blue;
 }
+.BarHead{
+  color:blue;
+}
+
+.test{
+  color:rgb(133, 190, 212)
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

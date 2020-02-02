@@ -15,7 +15,7 @@ function BarChart(props) {
     datasets: [
       {
         label: "Emotional Data eg",
-        backgroundColor: "rgba(255,99,132,0.2)",
+        backgroundColor: ["green","yellow","rgba(133, 190, 212)", "red", "black", "grey", "orange"],
         borderColor: "rgba(255,99,132,1)",
         borderWidth: 1,
         hoverBackgroundColor: "rgba(255,99,132,0.4)",

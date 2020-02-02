@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Donut from './Components/Donut';
 import BarChart from './Components/BarChart';
+import LineChart from './Components/LineChart';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h2>Charts go here...</h2>
       <Donut/>
       <BarChart />
+      <LineChart />
     </div>
   );
 }

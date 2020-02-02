@@ -4,18 +4,26 @@ import { Bar } from "react-chartjs-2";
 function BarChart(props) {
   const data = {
     labels: [
-      "neutral",
-      "happy",
-      "sad",
-      "angry",
-      "fearful",
-      "disgusted",
-      "surprised"
+      "neutral 😐",
+      "happy 😀",
+      "sad 🙁",
+      "angry 😡",
+      "fearful 😬",
+      "disgusted 🤢",
+      "surprised 😮"
     ],
     datasets: [
       {
         label: "Emotional Data eg",
-        backgroundColor: ["green","yellow","rgba(133, 190, 212)", "red", "black", "grey", "orange"],
+        backgroundColor: [
+          "green",
+          "yellow",
+          "rgba(133, 190, 212)",
+          "red",
+          "black",
+          "rgba(48, 68, 36, 0.733)",
+          "orange"
+        ],
         borderColor: "rgba(255,99,132,1)",
         borderWidth: 1,
         hoverBackgroundColor: "rgba(255,99,132,0.4)",

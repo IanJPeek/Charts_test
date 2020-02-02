@@ -5,6 +5,7 @@ import BarChart from './Components/BarChart';
 import LineChart from './Components/LineChart';
 import Radial from './Components/Radial';
 import PolarChart from './Components/PolarChart';
+import DynamicLine from './Components/DynamicLine';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <LineChart />
       <Radial />
       <PolarChart />
+      <DynamicLine />
     </div>
   );
 }

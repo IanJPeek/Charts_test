@@ -4,12 +4,20 @@ import { Doughnut } from "react-chartjs-2";
 
 function Donut(props) {
   const data = {
-    labels: ["One", "Two", "Three"],
+    labels: ["Negative", "Neutral", "Happy"],
     datasets: [
       {
         data: [25, 30, 12],
-        backgroundColor: ["#FF6384", "rgba(112, 226, 108, 0.89)", "yellow"],
-        hoverBackgroundColor: ["#FF6384", "rgba(112, 226, 108, 0.89)", "yellow"]
+        backgroundColor: [
+          "rgba(133, 190, 212)",
+          "rgba(112, 226, 108, 0.89)",
+          "yellow"
+        ],
+        hoverBackgroundColor: [
+          "rgba(133, 190, 212)",
+          "rgba(112, 226, 108, 0.89)",
+          "yellow"
+        ]
       }
     ]
   };

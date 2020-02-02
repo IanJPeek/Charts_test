@@ -3,6 +3,7 @@ import './App.css';
 import Donut from './Components/Donut';
 import BarChart from './Components/BarChart';
 import LineChart from './Components/LineChart';
+import Radial from './Components/Radial';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Donut/>
       <BarChart />
       <LineChart />
+      <Radial />
     </div>
   );
 }

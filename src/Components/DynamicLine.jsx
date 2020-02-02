@@ -1,17 +1,11 @@
 import React, { Component } from "react";
 import { Line } from "react-chartjs-2";
 
+// may need to fix 0 / 100 with dummy numbers at end?
+
 class DynamicLine extends Component {
   state = {
-    labels: [
-      "neutral 😐",
-      "happy 😀",
-      "sad 🙁",
-      "angry 😡",
-      "fearful 😬",
-      "disgusted 🤢",
-      "surprised 😮"
-    ],
+    labels: ["0: 00", "0:05", "0:10", "0:15", "0:20", "0:25", "0:30"],
     datasets: [
       {
         label: "neutral 😐",
@@ -32,7 +26,7 @@ class DynamicLine extends Component {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: [65, 59, 80, 81, 56, 55, 40,]
+        data: [65, 59, 80, 81, 56, 55, 40]
       }
     ]
   };
